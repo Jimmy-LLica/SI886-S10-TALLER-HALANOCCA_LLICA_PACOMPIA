@@ -1,0 +1,7 @@
+﻿Entidad,Sistemas o archivo conocido,Registros por sistema,Fuente autoritativa,Dueño por cargo,Discrepancia,Clasificación,Datos personales
+Cliente,ERP; fuerza de ventas; portal; libro de cobranza,8 400; 8 400; 340; 8 900,"ERP declarada, no conciliada",No designado,500 registros adicionales en cobranza,Confidencial,Sí
+Producto,ERP; libro de precios; fuerza de ventas; portal,6 200; 6 400; 6 200; 1 100,ERP declarada,Jefe comercial,Precio distinto entre app y libro,Interna,No
+Stock,ERP almacén; libro almacén; fuerza de ventas; portal,6 200; 4 900; 6 200; 1 100 ítems,Libro de almacén de hecho; no validada,Jefe de almacén,"4,7 %; S/ 310 000; ERP abandonado",Interna,No
+Pedido,Fuerza de ventas; portal; ERP; papel,220 000 líneas/año en conjunto; desglose no informado,ERP declarada,Jefe comercial,Pedidos de portal digitados dos veces,Confidencial,"Sí, contacto"
+Proveedor,Archivo proveedores.csv; sistema operativo por confirmar,78 en archivo; conteo por sistema no informado,Por confirmar,Por designar,No informada,"Confidencial, propuesta","Sí, contacto y documento"
+Trabajador,Archivo empleados.csv; sistema operativo por confirmar,157 en archivo; conteo por sistema no informado,Por confirmar,Por designar,No informada,"Restringida, propuesta",Sí

@@ -1,0 +1,19 @@
+Brechas documentadas: 14
+
+Brechas por capa:
+Capa
+Aplicaci├│n    5
+Datos         4
+Negocio       2
+Tecnolog├¡a    3
+
+Paquetes de trabajo:
+PT1: B01, B02, D05, B13
+PT2: D03, D04, A06
+PT3: A07, A08, A09
+PT4: T10, T11, T12
+PT5: A14
+
+Secuencia por dependencias: PT1 -> PT2 -> PT3 -> PT5
+PT4 inicia despu├®s de PT1 y puede avanzar en paralelo con PT2.
+Esfuerzo: cualitativo y propuesto; requiere estimaci├│n presupuestal posterior.

@@ -1,0 +1,15 @@
+﻿ID,Capa,Situación actual,Situación objetivo,Evidencia,Esfuerzo estimado,Paquete,Dependencias
+B01,Negocio,Compras y pagos: mismo usuario registra y aprueba,Separar registro y aprobación y monitorear fraccionamiento,Ficha G/H,Alta,PT1,—
+B02,Datos,Cliente sin dueño y 500 registros de diferencia,"Dueño comercial, definición y conciliación del maestro",Inventario §5,Media,PT1,B01
+D03,Datos,"Stock: 4,7 % / S/ 310 000 de diferencia",Conciliación física-contable y movimientos controlados,Ficha C; inventario §5,Alta,PT2,B02
+D04,Datos,Precios distintos en libro y app,Precio maestro aprobado y sincronizado,Inventario §5,Media,PT2,B02
+D05,Datos,Proveedor y trabajador sin linaje de sistema documentado,"Inventariar ubicación, fuente y dueño; validar conteos",Ficha I; inventario §5,Media,PT1,B02
+A06,Aplicación,ERP almacén abandonado; hojas de ubicaciones y conteos,Restablecer o sustituir control transaccional del almacén,Ficha C; inventario §2/4,Alta,PT2,D03
+A07,Aplicación,Portal→ERP con doble digitación,Interfaz controlada de pedidos y estados,Inventario §4/5,Media,PT3,"B02,A06"
+A08,Aplicación,ERP→móvil solo sincronización nocturna,Consulta de disponibilidad con latencia y reservas definidas,Inventario §4; dinámica S10,Media,PT3,A06
+A09,Aplicación,Portal propio sin soporte,"Mantenimiento, pruebas y registro de cambios",Ficha C/H,Media,PT3,B01
+T10,Tecnología,Red plana con red de invitados,Segmentación y control de accesos de red,Inventario §6,Media,PT4,B01
+T11,Tecnología,Ilo depende de enlace sin respaldo,Alternativa de conectividad y prueba de conmutación,Inventario §6,Media,PT4,B01
+T12,Tecnología,Respaldo local sin restauración integral probada,Copia separada y prueba de restauración documentada,Ficha F,Alta,PT4,B01
+B13,Negocio,Cambios en producción sin registro ni aprobación,Flujo de cambio con autorización y reversión,Ficha F,Baja,PT1,B01
+A14,Aplicación,No hay base confiable para tablero consolidado,Indicadores sobre maestros y movimientos conciliados,Inferencia de D03/D04/A07,Media,PT5,"D03,D04,A07"
